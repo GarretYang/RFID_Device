@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <body background="background.jpg">
+  </head>
+  <body>
+    <center>
+      <h1 style="font-family:Arial;"> RFID Security System </h1>
+      <p style="font-family:Arial;"> Activity Log </p>
+      <div><object data="putty.log"></object></div>
+      <br>
+      <p style="font-family:Arial;"> Database </p>
+      <button type="button" onclick="Show()">Search</button>
+      <p id="demo"> here</p>
+      <p id="data"></p>
+      <script>
+      var db = openDatabase('test.db', '1.0', 'my first database', 2 * 1024 * 1024);
+
+      function Show() {
+        // db.transaction(function(tx) {
+        //   tx.executeSql("insert into table2 values(1, 'ariel')",
+        //   [],
+        //   function(tx, result) {
+        //     alert('succeed');
+        //   },
+        //   function(tx, error) {
+        //     alert('Failed: ' + error.message);
+        //     return;
+        //   });
+        // });
+
+        db.transaction(function(tx) {
+          tx.executeSql("select * from table2",
+          [],
+          function(tx, result) {
+            document.getElementById("demo").innerHTML = "result display here";
+            var note = document.getElementById('data');
+            // notesnode.innerHTML="";
+
+            for (var i = 0; i < result.row.lengh; ++i) {
+              var row = result.row.item(i);
+              document.getElementById("demo").innerHTML = "result display here";
+              // var notediv = document.createElement('div');
+              // notediv.innerHMTL = 'id: ' + row['id'] + ', name: ' + row['name'];
+              // notesnode.appendChild(notdiv);
+            }
+          },
+          function(tx, error) {
+            alert('Failed: ' + error.message);
+            return;
+          });
+        });
+      }
+
+      function GetId() {
+        document.getElementById("demo").innerHTML = "result display here";
+      }
+      </script>
+
+    </center>
+  </body>
+  </html>

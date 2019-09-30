@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>610554023</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\..\drivers\buttons.c</file>
+            <file>$PROJ_DIR$\freertos_demo.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\MemMang\heap_2.c</file>
+            <file>$PROJ_DIR$\SSD2119.c</file>
+            <file>$PROJ_DIR$\ewarm\Obj\switch_task.pbi</file>
+            <file>$PROJ_DIR$\switch_task.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\utils\uartstdio.c</file>
+            <file>$PROJ_DIR$\..\drivers\rgb.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c</file>
+            <file>$PROJ_DIR$\ewarm\Obj\touch_task.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\projdefs.h</file>
+            <file>$PROJ_DIR$\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\uart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\list.c</file>
+            <file>$PROJ_DIR$\led_task.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\SPI_2_MFRC522.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\debug.h</file>
+            <file>$PROJ_DIR$\SPI_2_MFRC522.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\tasks.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\rom_map.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\queue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\utils\ustdlib.c</file>
+            <file>$PROJ_DIR$\startup_ewarm.c</file>
+            <file>$PROJ_DIR$\ewarm\Obj\ustdlib.pbi</file>
+            <file>$PROJ_DIR$\ewarm\Obj\rgb.pbi</file>
+            <file>$PROJ_DIR$\SSD2119.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\list.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\portable.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\switch_task.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\rgb.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\interrupt.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\freertos_demo.pbi</file>
+            <file>$PROJ_DIR$\ewarm\Obj\portasm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\SSD2119.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\timer.h</file>
+            <file>$PROJ_DIR$\tivaCbluetooth.c</file>
+            <file>$PROJ_DIR$\ewarm\Obj\SSD2119.o</file>
+            <file>$PROJ_DIR$\blink_task.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\utils\uartstdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\output_task.c</file>
+            <file>$PROJ_DIR$\ewarm\Obj\buttons.o</file>
+            <file>$PROJ_DIR$\input_task.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\queue.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\led_task.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.pbi</file>
+            <file>$PROJ_DIR$\ewarm\Obj\SPI_2_MFRC522.pbi</file>
+            <file>$PROJ_DIR$\ewarm\Obj\freertos_demo.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\uartstdio.pbi</file>
+            <file>$PROJ_DIR$\ewarm\Obj\SPI_2_MFRC522.o</file>
+            <file>$PROJ_DIR$\ewarm\Exe\freertos_demo.bin</file>
+            <file>$PROJ_DIR$\global.h</file>
+            <file>$PROJ_DIR$\priorities.h</file>
+            <file>$PROJ_DIR$\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\led_task.h</file>
+            <file>$PROJ_DIR$\touch_task.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\touch_task.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\ewarm\List\freertos_demo.map</file>
+            <file>$PROJ_DIR$\ewarm\Obj\switch_task.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\StackMacros.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\port.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\mpu_wrappers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_ints.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_types.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\tasks.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\startup_ewarm.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\uartstdio.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\ustdlib.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_timer.h</file>
+            <file>$PROJ_DIR$\..\drivers\buttons.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\task.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\list.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\port.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\..\drivers\rgb.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\heap_2.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\freertos_demo.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\rom.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\tivaCbluetooth.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\deprecated_definitions.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\inc\hw_nvic.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\queue.pbi</file>
+            <file>$PROJ_DIR$\ewarm\Obj\tivaCbluetooth.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\utils\ustdlib.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\semphr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\tasks.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\ewarm\Obj\freertos_demo.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\driverlib\pin_map.h</file>
+            <file>$PROJ_DIR$\FileIO.c</file>
+            <file>$PROJ_DIR$\ewarm\Obj\heap_2.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\list.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\led_task.o</file>
+            <file>$PROJ_DIR$\ewarm\Exe\freertos_demo.out</file>
+            <file>$PROJ_DIR$\ewarm\Obj\queue.o</file>
+            <file>$PROJ_DIR$\ewarm\Obj\buttons.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\include\timers.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portmacro.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 125 74</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\buttons.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 52 110 95 82 111 18 83 107 103 41 104 24 120 58 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120 103 83 104 92 95 18 52 107 41 24 58 110 111 17 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\freertos_demo.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 52 110 95 82 111 18 107 83 58 120 104 41 13 51 69 38 89 37 40 68 11 35 108 129 80 71 45 79 93 96 56 115 33 50 99 92 67 55 116 94 103 66 22 48 26 12 105 101 53 86 118 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 11 80 17 110 13 104 56 51 58 89 48 82 116 52 118 107 69 55 108 95 83 22 40 93 120 41 38 115 50 53 111 18 14 45 92 105 99 67 66 37 68 35 129 79 71 96 103 94 26 12 101 86 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\MemMang\heap_2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 110 95 82 111 18 40 59 89 37 52 68 11 35 108 129 80 71 45 79 93 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 59 11 89 95 18 129 80 71 96 93 110 40 82 52 79 25 37 68 35 108 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SSD2119.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 95 82 111 18 98 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18 110 33 111 98 95 82 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\switch_task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 52 110 95 82 111 18 107 83 103 41 58 104 92 51 38 69 67 89 37 40 68 11 35 108 129 80 71 45 79 93 96 56 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71 129 115 52 92 80 96 103 67 95 107 58 38 93 111 110 83 41 104 51 69 89 56 18 11 79 17 82 14 37 68 35 40 108 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\utils\uartstdio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 52 110 95 82 111 18 81 107 83 76 21 42 104 24 41 13 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 42 107 13 14 76 24 95 18 52 81 83 21 104 41 51 110 82 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\rgb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 95 82 111 18 17 83 107 91 81 41 104 24 120 47 58 42 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24 91 42 82 83 41 47 95 17 107 81 104 120 58 99 110 111 18 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80 71 95 82 111 18 45 89 37 110 40 52 68 11 35 108 129 79 93 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82 129 110 95 80 45 37 93 111 35 89 71 18 68 40 79 96 52 11 108</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 110 95 82 111 18 40 59 89 37 52 68 11 35 108 129 80 71 45 79 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35 110 37 45 96 40 82 95 68 89 59 111 18 52 11 108 25 129 79 80 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\led_task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 52 110 95 82 111 18 107 83 58 104 99 92 51 69 67 89 37 40 68 11 35 108 129 80 71 45 79 93 96 56 115 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11 80 110 51 95 58 93 18 108 107 99 67 115 111 14 52 45 83 104 92 69 89 56 33 82 37 68 35 40 129 79 71 17 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SPI_2_MFRC522.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 95 82 111 18 22 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82 12 95 22 110 111 18 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 110 95 82 111 18 40 59 105 101 89 37 52 68 11 35 108 129 80 71 45 79 93 96 128 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11 110 93 111 77 95 101 129 71 105 89 128 59 18 40 52 79 96 25 82 37 68 35 108 80 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25 110 95 82 111 18 40 59 105 101 89 37 52 68 11 35 108 129 80 71 45 79 93 96 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95 129 71 40 80 93 82 11 110 101 52 79 105 89 56 59 111 18 37 68 35 108 45 25 96</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\third_party\FreeRTOS\Source\portable\IAR\ARM_CM4F\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\utils\ustdlib.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 95 82 111 18 21 114 86 40 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110 114 18 95 21 111 14 52 82 86 40 118</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_ewarm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 95 82 111 18 109 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111 83 110 18 109 95 82 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\tivaCbluetooth.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 110 95 82 111 18 26 40 17 12 105 101 33 116 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110 95 40 105 18 17 116 111 101 26 12 33 82 94 52</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\touch_task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 52 110 95 82 111 18 116 94 107 83 103 41 58 104 92 51 38 69 67 89 37 40 68 11 35 108 129 80 71 45 79 93 96 56 115 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56 68 104 83 69 95 40 79 116 41 51 89 33 110 82 94 96 52 107 103 58 92 38 67 93 115 111 18 37 35 129 71 17 14 11 108 80 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\ewarm\Exe\freertos_demo.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 102 54 0 62 122 124 123 78 44 126 39 64 49 85 75 84 87 90 88 19 36 73</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Bluetooth.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\rc522-master\rc522-master\RFID.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\TivaC_RFID_RC522_Energia-master\TivaC_RFID_RC522_Energia-master\Mfrc522\RFIDMASTER.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
